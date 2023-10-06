@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+    --primary-calor: aqua;
+    --secondary-color: orange;
+    --accent1-color: chocolate;
+    --accent2-color: aqua;
+
+    --heading-font: 'Arial Black';
+    --paragraph-font: georgia;
+
+    --nav-background-color: white;
+    --nav-link-color: red;
+    --nav-hover-link-color: aqua;
+    --nav-hover-background-color: aqua;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1462px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    background-color: aliceblue;
+    opacity: 0.5;
+    position: absolute;
+    width: 1462px;
+    text-align: center;
+    top: 700px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accnt1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    width: 1462px;
+}
+nav img {
+    height: 30px;
+}
+nav a {
+    display: block;
+    color: var(--link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+article  {
+    display: block;
+    background-color: azure;
+    position: absolute;
+    opacity: 0.8;
+    width: 1462px;
+    top: 1000px;
+}
+article img {
+    float: right;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
