@@ -37,6 +37,7 @@ main h1 {
 
 .box img {
     height: 70px;
+    float: left;
 }
 
 
