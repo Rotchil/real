@@ -35,9 +35,7 @@ header {
     background-color: var(--accnt1-color);
 }
 
-p {
-    padding: 25px;
-}
+
 
 nav {
     background-color: var(--nav-background-color);
