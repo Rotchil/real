@@ -26,6 +26,10 @@ main h1 {
     top: 47px;
 }
 
+body {
+    max-width: 100%;
+}
+
 header {
     padding: 20px;
     background-color: var(--accnt1-color);
