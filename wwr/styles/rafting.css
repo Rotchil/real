@@ -14,6 +14,10 @@
     --nav-hover-background-color: aqua;
 }
 
+body {
+    max-width: 100%;
+}
+
 
 
 main h1 {
@@ -24,10 +28,6 @@ main h1 {
     width: 100%;
     text-align: center;
     top: 47px;
-}
-
-body {
-    max-width: 100%;
 }
 
 header {
@@ -71,6 +71,7 @@ article  {
     top: 450px;
 }
 article img {
+    display: block;
     float: right;
 }
 
@@ -82,6 +83,7 @@ article img {
 }
 
 main {
+    display: block;
     width: 100%;
     text-align: center;
     position: relative;
