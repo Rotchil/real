@@ -16,6 +16,8 @@
 
 
 
+
+
 main h1 {
     font-family: var(--heading-font);
     background-color: aliceblue;
@@ -75,13 +77,13 @@ article  {
     position: absolute;
     opacity: 0.8;
     width: 100%;
-    top: 350px;
+    top: 250px;
     
 }
 article img {
     display: block;
     float: right;
-    height: auto;
+    height: 200px;
 }
 
 .hero img {
@@ -94,7 +96,7 @@ article img {
 main {
     display: block;
     width: 100%;
-    text-align: left;
+    text-align:left;
     position: relative;
 }
 
