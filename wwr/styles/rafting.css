@@ -79,11 +79,13 @@ article  {
     position: absolute;
     opacity: 0.8;
     width: 100%;
-    top: 450px;
+    top: 250px;
+    
 }
 article img {
     display: block;
     float: right;
+    height: 200px;
 }
 
 .hero img {
