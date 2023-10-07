@@ -30,18 +30,24 @@ main h1 {
     top: 47px;
 }
 
-header {
-    padding: 20px;
-    background-color: var(--accnt1-color);
+.box {
+    padding: 3px;
+    background-color: azure;
+}
+
+.box img {
+    height: 70px;
 }
 
 
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    background-color: none;
+    font-size: 15px;
     display: flex;
     width: 1462px;
+    height: 25px;
+    float: left
 }
 nav img {
     height: 30px;
@@ -50,7 +56,8 @@ nav a {
     display: block;
     color: var(--link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 1px;
+    float: left;
 }
 
 nav a:link, nav a:visited {
