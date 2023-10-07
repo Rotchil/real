@@ -14,20 +14,16 @@
     --nav-hover-background-color: aqua;
 }
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 1462px;
-    padding: 20px;
-}
 
-h1 {
+
+main h1 {
     font-family: var(--heading-font);
     background-color: aliceblue;
     opacity: 0.5;
     position: absolute;
-    width: 1462px;
+    width: 100%;
     text-align: center;
-    top: 700px;
+    top: 47px;
 }
 
 header {
@@ -66,11 +62,11 @@ nav a:hover {
 
 article  {
     display: block;
-    background-color: azure;
+    background-color: aliceblue;
     position: absolute;
     opacity: 0.8;
-    width: 1462px;
-    top: 1000px;
+    width: 100%;
+    top: 450px;
 }
 article img {
     float: right;
@@ -82,3 +78,10 @@ article img {
     height: auto;
     position: relative;
 }
+
+main {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
